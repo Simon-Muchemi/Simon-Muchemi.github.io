@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Outfit">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | QR code component</title>
+    <style>
+        .attribution { font-size: 11px; text-align: center; }
+        .attribution a { color: hsl(228, 45%, 44%); }
+
+        body{
+            background-color: hsl(218, 8%, 72%);
+            display: grid;
+            place-items: center;
+        }
+        #QR-code{
+            margin: 10px 10px;
+            height: 38vh;
+            width: 38vw;
+            border-radius: 15px;
+        }
+        .container{
+            height: auto;
+            width: 43vw;
+            background-color: aliceblue;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 8px #8d9090;
+        }
+        #title{
+            font-family: Outfit, sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            color: #2b3e4c;
+        }
+        #message{
+            font-family: Outfit, sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            color: hsl(165, 7%, 55%);
+            padding-bottom: 20px;
+        }
+        #title, #message{
+            margin: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Simon-Muchemi</a>.
+    </div>
+    <div class="container">
+        <img alt="QR code" src="images/image-qr-code.png" id="QR-code">
+        <p id="title">Improve your front-end skills by building projects</p>
+        <p id="message">
+            Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+        </p>
+    </div>
+</body>
+</html>
