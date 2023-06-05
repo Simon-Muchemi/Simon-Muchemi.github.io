@@ -1,0 +1,48 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    background-color: hsl(218, 8%, 72%);
+    display: grid;
+    place-items: center;
+}
+#QR-code{
+    margin: 10px;
+    height: 80%;
+    width: 90%;
+    border-radius: 15px;
+}
+.container{
+    height: auto;
+    width: 23vw;
+    background-color: aliceblue;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 8px #8d9090;
+}
+#title{
+    font-family: Outfit, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #2b3e4c;
+}
+#message{
+    font-family: Outfit, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: hsl(165, 7%, 55%);
+    padding-bottom: 20px;
+}
+#title, #message{
+    margin: 10px;
+}
+@media only screen and (max-width: 600px) {
+    /* Styles for mobile devices */
+    .container {
+        width: 70%;
+    }
+    #QR-code {
+        height: 80%;
+        width: 90%;
+    }
+}
